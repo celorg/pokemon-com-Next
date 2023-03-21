@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.2em;
+    align-items: center;
+    background-color: #333;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color: #fff;
+    margin-left: 0.5em;
+}
+
+.listLinks{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.listLinks li a{
+    color: #fff;
+    padding: 5px;
+    transition: .4s;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+.listLinks li a:hover{
+    border-bottom: #fff 1px solid;
+}
